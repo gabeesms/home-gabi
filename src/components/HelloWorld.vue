@@ -1,58 +1,149 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+  <v-app class="painelImg">
+    <v-row class="text-center">
+      <v-col cols="12" sm="12">
+        <v-img
+          :src="require('../assets/gabrielle.jpeg')"
+          class="my-3 rounded-circle d-inline-block"
+          contain
+          height="180"
+        />
+      </v-col>
+
+      <v-col class="mb-4" style="margin-top: -50px">
+        <h1 class="titulo-h1" style="color: #f9a826">Gabrielle Maciel</h1>
+
+        <h4 class="subtitulo-h4">
+          Estudante de Pós-Graduação em Engenharia de Software, Analista de
+          Sistemas & <br />
+          Desenvolvedora de Software.
+        </h4>
+      </v-col>
+
+      <v-col cols="12" sm="12" class="mb-4">
+        <v-row justify="center">
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="mailto:gabriellemacieel@gmail.com"
+          >
+            <v-icon large> mdi-email</v-icon>
+          </v-btn>
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="https://www.facebook.com/gabeesms"
+          >
+            <v-icon large> mdi-facebook</v-icon>
+          </v-btn>
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="https://www.instagram.com/gabeesms/"
+          >
+            <v-icon large> mdi-instagram</v-icon>
+          </v-btn>
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="https://twitter.com/gabeesms"
+          >
+            <v-icon large> mdi-twitter</v-icon>
+          </v-btn>
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="https://www.linkedin.com/in/gabeesms/"
+          >
+            <v-icon large> mdi-linkedin</v-icon>
+          </v-btn>
+          <v-btn
+            class="ma-2"
+            text
+            icon
+            color="orange lighten-2"
+            href="https://github.com/gabeesms"
+          >
+            <v-icon large> mdi-github</v-icon>
+          </v-btn>
+        </v-row>
+      </v-col>
+
+
+      <v-col cols="12" sm="12" class="mb-4" >
+        <v-row justify="center">
+          <h4 class="subtitulo-h4" style="color: #f9a826">Sobre mim</h4>
+        </v-row>
+
+        <v-row justify="center" style="margin-top: 20px">
+          <p class="sobremim-p">
+            Formada em Sistemas de informação em 2019 pela faculdade FAMETRO.
+            <br />Estou cursando Especialização em Engenharia de Software na
+            universidade PUC Minas.<br />Possuo experiências há mais de 3 anos
+            com Desenvolvimento de Software Web.<br />Atualmente sou
+            desenvolvedora FullStack na Kodigos Software.
+            <br />
+            Foco em tecnologias: VueJs, Vuetify, C#, Entity Framework e SQL
+            Server.
+          </p>
+        </v-row>
+      </v-col>
+    </v-row>
+
+    <v-footer padless style="background-color: #f9a826; color: #ffffff">
+      <v-col class="text-center" cols="12">
+        © {{ new Date().getFullYear() }} —
+        <strong>Gabrielle Maciel da Silva</strong>
+      </v-col>
+    </v-footer>
+  </v-app>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  name: "HelloWorld",
+
+  data: () => ({}),
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.titulo-h1 {
+  font-size: 4rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.subtitulo-h4 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.sobremim-p {
+  font-size: 1.15rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
 }
-a {
-  color: #42b983;
+.painelImg {
+  background-image: url("../assets/fundobranco.jpeg");
+  background-size: cover;
+  height: 100vh;
 }
+
 </style>
