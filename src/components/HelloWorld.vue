@@ -4,7 +4,7 @@
       <v-col cols="12" sm="12">
         <v-img
           :src="require('../assets/gabrielle.jpeg')"
-          class="my-3 rounded-circle d-inline-block"
+          class="my-3"
           contain
           height="180"
         />
@@ -100,7 +100,7 @@
       </v-col>
     </v-row>
 
-    <v-footer padless style="background-color: #f9a826; color: #ffffff">
+    <v-footer padless style="background-color: #f9a826; color: #FFFF;">
       <v-col class="text-center" cols="12">
         © {{ new Date().getFullYear() }} —
         <strong>Gabrielle Maciel da Silva</strong>
