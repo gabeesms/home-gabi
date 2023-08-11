@@ -89,7 +89,7 @@
           <p class="sobremim-p">
             Bacharelado em Sistemas de Informação pela faculdade FAMETRO.
             <br />Estou cursando Especialização em Engenharia de Software na
-            universidade PUC Minas.<br />Possuo experiências há mais de 3 anos
+            universidade PUC Minas.<br />Possuo experiência há mais de 3 anos
             com Desenvolvimento de Software Web.<br />Atualmente sou
             desenvolvedora FullStack na Kodigos Software.
             <br />
