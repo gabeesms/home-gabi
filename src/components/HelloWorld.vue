@@ -2,21 +2,22 @@
   <v-app class="painelImg">
     <v-row class="text-center">
       <v-col cols="12" sm="12">
-        <v-img
-          :src="require('../assets/gabrielle.jpeg')"
-          class="my-3"
-          contain
-          height="180"
-        />
+        <br />
+        <v-avatar size="200">
+          <v-img
+            :src="require('../assets/gabrielle.jpeg')"
+            class="my-3"
+            contain
+            height="200"
+          />
+        </v-avatar>
       </v-col>
 
-      <v-col class="mb-4" style="margin-top: -50px">
+      <v-col class="mb-4" style="margin-top: -20px">
         <h1 class="titulo-h1" style="color: #f9a826">Gabrielle Maciel</h1>
 
         <h4 class="subtitulo-h4">
-          Estudante de Pós-Graduação em Engenharia de Software, Analista de
-          Sistemas & <br />
-          Desenvolvedora de Software.
+          Analista de Sistemas e Desenvolvedora de Software.
         </h4>
       </v-col>
 
@@ -79,19 +80,19 @@
         </v-row>
       </v-col>
 
-
-      <v-col cols="12" sm="12" class="mb-4" >
+      <v-col cols="12" sm="12" class="mb-4">
         <v-row justify="center">
           <h4 class="subtitulo-h4" style="color: #f9a826">Sobre mim</h4>
         </v-row>
 
         <v-row justify="center" style="margin-top: 20px">
           <p class="sobremim-p">
-            Formada em Sistemas de informação em 2019 pela faculdade FAMETRO.
+            Bacharelado em Sistemas de Informação pela faculdade FAMETRO.
             <br />Estou cursando Especialização em Engenharia de Software na
             universidade PUC Minas.<br />Possuo experiências há mais de 3 anos
             com Desenvolvimento de Software Web.<br />Atualmente sou
             desenvolvedora FullStack na Kodigos Software.
+            <br />
             <br />
             Foco em tecnologias: VueJs, Vuetify, C#, Entity Framework e SQL
             Server.
@@ -100,7 +101,7 @@
       </v-col>
     </v-row>
 
-    <v-footer padless style="background-color: #f9a826; color: #FFFF;">
+    <v-footer padless style="background-color: #f9a826; color: #ffff">
       <v-col class="text-center" cols="12">
         © {{ new Date().getFullYear() }} —
         <strong>Gabrielle Maciel da Silva</strong>
@@ -145,5 +146,4 @@ export default {
   background-size: cover;
   height: 100vh;
 }
-
 </style>
