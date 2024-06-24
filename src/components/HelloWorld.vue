@@ -5,10 +5,10 @@
         <br />
         <v-avatar size="200">
           <v-img
-            :src="require('../assets/gabrielle.jpeg')"
+            :src="require('../assets/gabriellemaciel.jpeg')"
             class="my-3"
             contain
-            height="200"
+            height="350"
           />
         </v-avatar>
       </v-col>
@@ -32,7 +32,7 @@
           >
             <v-icon large> mdi-email</v-icon>
           </v-btn>
-          <v-btn
+          <!-- <v-btn
             class="ma-2"
             text
             icon
@@ -40,17 +40,17 @@
             href="https://www.facebook.com/gabeesms"
           >
             <v-icon large> mdi-facebook</v-icon>
-          </v-btn>
+          </v-btn> -->
           <v-btn
             class="ma-2"
             text
             icon
             color="orange lighten-2"
-            href="https://www.instagram.com/gabeesms/"
+            href="https://www.instagram.com/iamgabes/"
           >
             <v-icon large> mdi-instagram</v-icon>
           </v-btn>
-          <v-btn
+          <!-- <v-btn
             class="ma-2"
             text
             icon
@@ -58,7 +58,7 @@
             href="https://twitter.com/gabeesms"
           >
             <v-icon large> mdi-twitter</v-icon>
-          </v-btn>
+          </v-btn> -->
           <v-btn
             class="ma-2"
             text
@@ -88,13 +88,13 @@
         <v-row justify="center" style="margin-top: 20px">
           <p class="sobremim-p">
             Bacharelado em Sistemas de Informação pela faculdade FAMETRO.
-            <br />Estou cursando Especialização em Engenharia de Software na
-            universidade PUC Minas.<br />Possuo experiência há mais de 3 anos
+            <br />Especialização em Engenharia de Software na
+            universidade PUC Minas.<br />Cursando Especialização em Engenharia de Produção e Gerenciamento de Projetos.<br/>Possuo experiência há mais de 3 anos
             com Desenvolvimento de Software Web.<br />Atualmente sou
-            desenvolvedora FullStack na Kodigos Software.
+            desenvolvedora FullStack no Instituto Kodigos de Tecnologia - IKT.
             <br />
             <br />
-            Foco em tecnologias: VueJs, Vuetify, C#, Entity Framework e SQL
+            Foco em tecnologias: VueJs, Vuetify, Quasar, C#, Entity Framework e SQL
             Server.
           </p>
         </v-row>
